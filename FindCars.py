@@ -99,7 +99,7 @@ def search_cargurus(url):
         # expires after one week
         expiryTimestamp = long(time.time() + 24 * 3600 * 7)
 
-        url = """https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePageModel&entitySelectingHelper.selectedEntity=d2383&zip=21901""" + link.a.get(
+        url = """https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?sourceContext=carGurusHomePageModel&entitySelectingHelper.selectedEntity=d2383&zip=12345""" + link.a.get(
             'href')
         picture = """<a href='""" + url + """'> <img src='""" + photo.img.get('src') + """'/> </a> """
 
